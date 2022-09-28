@@ -1,0 +1,10 @@
+.header {
+  background: #535c68;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border: 40px solid grey;
+}
