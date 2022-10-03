@@ -82,19 +82,20 @@
 }
 .blog {
   margin-top: 20px;
-  margin-bottom: 20px;
   background: #f0f0f0;
-  border: 2px solid black;
 }
 .blog-logo {
-  height: 200px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.blog-logo img {
+  height: 90px;
+}
 .blog-title {
   text-align: center;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 900;
   color: brown;
   margin-bottom: 30px;
@@ -149,4 +150,75 @@
   font-weight: 700;
   padding: 10px 20px;
   margin: 50px 0px 20px 0px;
+}
+.team {
+  background: #312b1f;
+  border: 2px solid red;
+}
+.team-img {
+  height: 90px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.team-img img {
+  height: 95%;
+}
+.team-title {
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.employees {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.employee-card {
+  width: 12%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+.employee-img img {
+  border-radius: 50%;
+  width: 75%;
+}
+.employee-name {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.employee-text {
+  color: white;
+}
+.container {
+  width: 60%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+.question {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+
+  color: white;
+}
+span {
+  font-weight: 900;
+}
+.text-1,
+.text-2,
+.text-3 {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+.text-3 {
+  margin-bottom: 20px;
 }
