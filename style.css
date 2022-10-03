@@ -1,18 +1,152 @@
 .header {
   background: #5d6774;
-  height: 90px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-button {
+.header-button {
   border: 2px solid grey;
   border-radius: 5px;
   background: linear-gradient(#a4b4bc, #44494b);
   color: white;
-  font-size: 16px;
-  padding: 10px 25px;
+  font-size: 14px;
+  padding: 10px 40px;
 }
-button:hover {
+.header-button:hover {
   background: linear-gradient(#c7d4dc, #acbdc6);
+}
+.showcase {
+  height: 450px;
+  border: 2px solid red;
+  background: no-repeat url(img/office.jpg);
+  background-size: 100% 85%;
+  display: flex;
+}
+
+.showcase-img {
+  border: 2px solid blue;
+  width: 50%;
+}
+.showcase-img img {
+  height: 100%;
+  width: 100%;
+}
+.showcase-text {
+  border: 2px solid black;
+  width: 50%;
+}
+.image {
+  background: #acbdc6;
+  border: 2px solid red;
+}
+.image-1 {
+  background: #acbdc6;
+  border: 2px solid red;
+}
+.gallery {
+  height: 800px;
+  border: 2px solid black;
+}
+.top {
+  height: 50%;
+  border: 2px solid black;
+  display: flex;
+}
+.bottom {
+  height: 50%;
+  border: 2px solid black;
+  display: flex;
+}
+.top-img {
+  width: 25%;
+  height: 100%;
+}
+.bottom-img {
+  width: 25%;
+  height: 100%;
+}
+.top img {
+  height: 100%;
+  width: 100%;
+}
+.bottom img {
+  height: 100%;
+  width: 100%;
+}
+.top-img:hover {
+  opacity: 0.5;
+}
+.bottom-img:hover {
+  opacity: 0.5;
+}
+.blog {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #f0f0f0;
+  border: 2px solid black;
+}
+.blog-logo {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-title {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  color: brown;
+  margin-bottom: 30px;
+}
+.blog-cards {
+  display: flex;
+  justify-content: center;
+}
+.blog-card {
+  width: 25%;
+  background: white;
+  border: 2px solid white;
+  border-radius: 0px 0px 10px 10px;
+  margin: 10px;
+}
+.blog-card img {
+  width: 100%;
+}
+.blog-data {
+  color: grey;
+  margin: 15px 0px 15px 0px;
+  text-align: end;
+}
+.blog-text__1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.blog-text__2 {
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-link {
+  margin: 20px 0px 20px 0px;
+}
+.blog-link a {
+  text-decoration: none;
+  color: #e2b74f;
+  font-weight: 800;
+}
+.blog-button {
+  text-align: center;
+}
+.blog-button button {
+  background: #f0ec00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: 50px 0px 20px 0px;
 }
