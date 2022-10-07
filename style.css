@@ -1,3 +1,6 @@
+.main {
+  background: #eeeeee;
+}
 .header {
   background: #5d6774;
   height: 100px;
@@ -81,13 +84,11 @@
   opacity: 0.5;
 }
 .blog {
-  margin-top: 20px;
-  background: #f0f0f0;
 }
 .blog-logo {
-  height: 100px;
+  height: 120px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 .blog-logo img {
@@ -153,18 +154,16 @@
 }
 .team {
   background: #312b1f;
-  border: 2px solid red;
 }
 .team-img {
-  height: 90px;
+  height: 120px;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  margin-top: 25px;
 }
 .team-img img {
-  height: 95%;
+  height: 80%;
 }
 .team-title {
   margin-top: 5px;
@@ -199,7 +198,6 @@
 }
 .container {
   width: 60%;
-  border: 2px solid black;
   margin: 0 auto;
 }
 .question {
@@ -220,5 +218,111 @@ span {
   color: white;
 }
 .text-3 {
+  padding-bottom: 30px;
+}
+.box {
+  width: 60%;
+  margin: 0 auto;
+  background: #eeeeee;
+}
+.poster {
+  text-align: center;
+}
+.poster-text {
+  margin-top: 10px;
+}
+.poster-title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.poster-img {
+  margin: 0 auto;
+  margin-top: 30px;
   margin-bottom: 20px;
+  width: 98%;
+  height: 450px;
+}
+.poster-img img {
+  border: 15px solid #ffffff;
+  box-shadow: 0 0 20px;
+  width: 95%;
+  height: 98%;
+}
+.article {
+  display: flex;
+  background: #eeeeee;
+}
+.article-text {
+  width: 30%;
+  margin-left: 120px;
+  padding: 20px;
+  border: 2px solid black;
+}
+.article-photo {
+  width: 70%;
+  border: 2px solid red;
+}
+.text-inscription {
+}
+.text-title {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.text-article__2 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.article-photo__1 {
+  position: absolute;
+}
+.text-button {
+}
+.text-button button {
+  background: #80b7b2;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 20px 15px 20px;
+}
+.fa-right-long {
+  padding-left: 10px;
+}
+.photo-1 {
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 650px;
+  height: 450px;
+  /*background: #e2b74f;*/
+  background: url(img/unnamed-1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  float: right;
+  z-index: 1;
+}
+.photo__1 {
+  width: 100%;
+  height: 100%;
+  border: 10px solid white;
+  z-index: 1;
+}
+.photo-2 {
+  width: 250px;
+  height: 250px;
+  /*background: #312b1f;*/
+  background: url(img/unnamed-2.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  border: 10px solid white;
+  z-index: 2;
+}
+.photo__2 {
+  border: 10px solid white;
+}
+.fotter {
+  height: 150px;
+  background: red;
 }
