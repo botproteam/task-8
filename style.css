@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;300;600&display=swap");
 .main {
   background: #eeeeee;
 }
@@ -20,33 +22,59 @@
   background: linear-gradient(#c7d4dc, #acbdc6);
 }
 .showcase {
-  height: 450px;
+  height: 650px;
   border: 2px solid red;
-  background: no-repeat url(img/office.jpg);
+  background: url(img/office.jpg) no-repeat;
   background-size: 100% 85%;
   display: flex;
+  color: white;
 }
 
-.showcase-img {
+.showcase-left {
   border: 2px solid blue;
   width: 50%;
 }
-.showcase-img img {
-  height: 100%;
-  width: 100%;
-}
-.showcase-text {
-  border: 2px solid black;
+.showcase-left-img {
   width: 50%;
+  height: 100%;
+  border: 2px solid green;
+  background: url(img/iphone-skeleton.png);
+  background-size: cover;
+  float: right;
 }
-.image {
-  background: #acbdc6;
-  border: 2px solid red;
+
+.showcase-text {
+  width: 50%;
+  font-family: "Poppins", sans-seri;
+  display: flex;
+  align-items: center;
 }
-.image-1 {
-  background: #acbdc6;
-  border: 2px solid red;
+.showcase-text__box {
+  height: 75%;
+  margin-left: 20px;
+  margin-right: 200px;
 }
+.text__box-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text__box-text {
+  margin-top: 20px;
+}
+.quote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.quote-foto img {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.quote-text {
+  margin-left: 20px;
+}
+
 .gallery {
   height: 800px;
   border: 2px solid black;
@@ -83,8 +111,6 @@
 .bottom-img:hover {
   opacity: 0.5;
 }
-.blog {
-}
 .blog-logo {
   height: 120px;
   display: flex;
@@ -115,13 +141,7 @@
 .blog-card img {
   width: 100%;
 }
-/*
-.blog-data,
-.blog-text__1,
-.blog-text__2,
-.blog-link {
-  margin-left: 10px;
-}*/
+
 .blog-box {
   margin-left: 25px;
   margin-right: 25px;
@@ -261,7 +281,7 @@ span {
 }
 .article {
   display: flex;
-  background: #eeeeee;
+  font-family: "PT Sans", sans-serif;
 }
 .article-text {
   width: 30%;
@@ -271,8 +291,7 @@ span {
 .article-photo {
   width: 70%;
 }
-.text-inscription {
-}
+
 .text-title {
   font-size: 20px;
   margin-top: 30px;
@@ -285,8 +304,7 @@ span {
 .article-photo__1 {
   position: absolute;
 }
-.text-button {
-}
+
 .text-button button {
   background: #80b7b2;
   border-radius: 15px;
